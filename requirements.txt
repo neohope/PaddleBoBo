@@ -1,6 +1,7 @@
 paddlepaddle-gpu  
 paddlespeech
 ppgan
+ffpyplayer
 isort
 typing-extensions
 lazy-object-proxy

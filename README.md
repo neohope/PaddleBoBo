@@ -21,12 +21,14 @@ python -m venv venv
 
 ### 4. install packages
 ```shell
+    # 先安装ffmpeg
+    # 然后安装依赖包
     pip install -r requirements.txt
 ```
 
 ### 5. clone code
 ```shell
-git clone https://github.com/JiehangXie/PaddleBoBo
+git clone https://github.com/neohope/PaddleBoBo
 cd PaddleBobo
 ```
 
@@ -57,7 +59,6 @@ python create_virtual_human.py --config default.yaml
 #human，第3步生成的人脸视频路径
 #output，生成虚拟主播视频的输出路径
 #text，虚拟主播语音文本
-from paddlespeech.utils.env import MODEL_HOME
 python general_demo.py \
     --human ./file/input/johncarmack.mp4 \
     --output johncarmack_output.mp4 \

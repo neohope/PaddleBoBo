@@ -8,7 +8,7 @@ import yaml
 from yacs.config import CfgNode
 
 from paddlespeech.cli.utils import download_and_decompress
-from paddlespeech.cli.utils import MODEL_HOME
+from paddlespeech.utils.env import MODEL_HOME
 
 from paddlespeech.s2t.utils.dynamic_import import dynamic_import
 from paddlespeech.t2s.frontend.zh_frontend import Frontend
